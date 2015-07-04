@@ -3,7 +3,7 @@ body {
 	margin: 0;
 }
 html {
-	background: url("../images/wave_bg.jpg") no-repeat center center fixed;
+	background: url("../images/wave.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
