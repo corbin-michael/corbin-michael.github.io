@@ -63,6 +63,7 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: rgba(212,212,212,.9);
 	height: auto;
 	display: none;
+	z-index: 1000;
 }
 .sub_nav > li {
 	list-style-type: none;
