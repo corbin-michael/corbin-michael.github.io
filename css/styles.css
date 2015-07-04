@@ -69,6 +69,8 @@ h1,h2,h3,h4,h5,h6 {
 	list-style-type: none;
 	padding: 5px 50px 5px 10px;
 	font-weight: 200 !important;
+	z-index: 1000;
+	position: relative;
 }
 .sub_nav > li:hover {
 	background-color: blue;
