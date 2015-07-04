@@ -8,13 +8,17 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	height: 100%;
 }
 p,
 li,
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Source Sans Pro', sans-serif;
 }
-
+#main_sec_container {
+	position: relative;
+	top: 21px;
+}
 
 /******
 		MENU BAR 
@@ -106,3 +110,11 @@ TOGGLE CLASSES
 }
 
 
+
+
+/******
+DRAGGABLE 
+******/
+.drag_me {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

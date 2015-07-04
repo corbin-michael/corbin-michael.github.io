@@ -30,5 +30,11 @@ $(document).ready(function(){
 		}
 	})
 
-
+	var windowHeight = $(window).height();
+	$('#main_sec_container').css('height', windowHeight - 21);
+	$( ".drag_me" ).draggable({ 
+		containment: "#main_sec_container", 
+		scroll: false 
+	});
+	
 });
